@@ -8,7 +8,7 @@ let length = text.length;
 slice() extracts a part of a string and returns the extracted part in a new string.
 The method takes 2 parameters: start position, and end position (end not included). */
 let extract = "Extracts part of a string =";
-let part = text.slice(10, 17);
+let part = extract.slice(10, 17);
 
 
 /* Replacing String Content
