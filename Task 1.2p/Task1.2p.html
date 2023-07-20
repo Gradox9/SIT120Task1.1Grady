@@ -1,0 +1,143 @@
+<!DOCTYPE html> <!--Defines Document Types-->
+<html>
+    <head> <!--Header tag-->
+        <title>Task 1.1p</title>
+
+        <!-- Setting view point top allow for responsive web design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            h2 {background-color: gold;}
+        </style>
+        <link rel="stylesheet" href="Style.css"> <!--link to stylesheet-->
+        <link rel="stylesheet" href="Print.css">
+    </head>
+    <body> <!--Body tag-->
+        <h1>This is my first Heading</h1>
+        <h2>here is an example of using internal css</h2>
+
+        <p>This is an image linked via url:</p> <!--Paragraph tag-->
+        <img style="width: 200px;" src="https://cdn-icons-png.flaticon.com/512/268/268100.png">
+
+        <br>
+
+        <a href="https:www.gradyramsay.online">
+            Here is a link to a website ive made before tha'll reload this tab
+        </a>
+
+        <br>
+
+        <a href="https:www.gradyramsay.online" target="_blank">
+            Here is a link to a website ive made before that'll open in another tab
+        </a>
+
+        <p style="color: brown;text-align: center;">Here's an example of using inline css</p>
+
+        <br>
+        
+        <p id="MyFirstTable">this table uses a stylesheet for its style</p>
+        <Table>
+            <tr>
+               <th>Column One</th>
+               <th>Column two</th>
+            </tr>
+            <tr>
+                <td>Row one</td>
+                <td>Row one</td>
+            </tr>
+            <tr>
+                <td>Row two</td>
+                <td>Row two</td>
+            </tr>
+        </Table>
+
+        <br>
+
+        <h3>Heres a form to complete</h3>
+        <form>
+            <label for="FirstName">First name:</label>
+            <input type="text" id="FirstName">
+            <br>
+            <label for="Choices">Choose one:</label>
+            <input type="radio" id="Choices">
+            <br>
+            <label for="Checkbox">Choose another:</label>
+            <input type="checkbox" id="Checkbox">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+
+        <!-- FlexBox example -->
+        <section class="Articulate">
+            <article>
+                <h2> Here is an Article using FlexBox</h2>
+                <p> The reason im using this article is to help me learn and demonstrate the use of flexbox.</p>
+            </article>
+            <article>
+                <h1> Here is an Article</h1>
+                <p> The reason im using this article is to help me learn and demonstrate the use of flexbox.</p>
+            </article>
+            <article>
+                <h1> Here is an Article</h1>
+                <div id="ButtonChain">
+                    <button>One</button>
+                    <button>Button</button>
+                    <button>At</button>
+                    <button>A</button>
+                    <button>Time ;-;</button>
+                </div>
+                <p> The reason im using this article is to help me learn and demonstrate the use of flexbox.</p>
+            </article>
+            <article>
+                <h1> Here is an Article</h1>
+                <p> The reason im using this article is to help me learn and demonstrate the use of flexbox.</p>
+            </article>
+        </section>
+
+        <br>
+
+        <!-- Grid Layout Example -->
+        <div class="DivContainer">
+            <header style="font-weight: bold">LEARNING GRID LAYOUTS I PROMISE</header>
+            <article>
+                <h1>Learning grids</h1>
+                <p>This section is helping me learn and showcase grids</p>
+            </article>
+            <aside> 
+                <h3>aside is a new thing</h3>
+                <p>i did not know this existed till now</p>
+            </aside>
+            <footer>This is a footer</footer>
+        </div>
+
+        <br>
+        
+        <!-- Media Queries testing width adjustment -->
+        <div class="MediaQueries">Media Queries - this should change as the viewpoint through inspect elements
+            <p style="color: purple;" >changes occur at 360px(exactly), minimum width of 560px(35rem), Maximum width of 800px(50rem)</p>
+            <br>
+            <p>In CSS rem stands for “root em”, a unit of measurement that represents the font size of the root element. This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px. Using rem can help ensure consistency of font size and spacing throughout your UI.</p>
+        </div>
+
+        <br>
+
+        <!-- Media Queries testing hover -->
+        <a href="#">Testing out the hovering with Media Queries</a>
+
+        <br>
+
+        <!-- Example of using breakpoints-->
+        <article class="QuakePoints">
+            <h1>
+                Example of using breakpoints
+            </h1>
+            <p>
+                This should help me better understand breakpoints to a simple degree i could go back through
+                my html file and give a name to everything and apply breakpoints there but i'll be only applying
+                it to this section to showcase the example even though its less complex.
+            </p>
+        </article>
+
+    </body>
+</html>
