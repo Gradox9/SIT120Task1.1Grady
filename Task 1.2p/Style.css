@@ -1,0 +1,80 @@
+th {
+    background-color: rgb(255, 119, 65);
+}
+
+td {
+    color: rgb(100, 0, 0);
+}
+
+#MyFirstTable {
+    font-weight: Bold;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+
+/* CSS code for flexBox */
+.Articulate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Articulate > article {
+    flex: 1 15%;
+}
+
+article:nth-of-type(3) {
+    flex: 2 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Articulate > article > h1 {
+    background-color: yellow;
+}
+
+
+/*CSS code for grid layouts*/
+#ButtonChain {
+    display: flex; align-items: center; justify-content: space-around;
+}
+
+.DivContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.DivContainer > header {
+    grid-column: 1 / 13;
+    grid-row: 1;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 208, 120);
+    border: 2px solid rgb(211, 111, 72);
+}
+
+.DivContainer > article {
+    grid-column: 4 / 13;
+    grid-row: 2;
+}
+
+.DivContainer > aside {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.DivContainer > footer {
+    grid-column: 1 / 13;
+    grid-row: 3;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 208, 120);
+    border: 2px solid rgb(211, 111, 72);
+}

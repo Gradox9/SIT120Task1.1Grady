@@ -1,0 +1,54 @@
+/* Exact width */
+@media (width: 360px) {
+    .MediaQueries {
+    color: red;
+  }
+}
+
+/* Minimum width */
+@media (min-width: 35rem) {
+  .MediaQueries {
+    background: rgb(255, 217, 0);
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  .MediaQueries {
+    border: 2px solid rgb(255, 174, 0);
+  }
+}
+/* There is also height, orientation and aspect-ratio but its difficult to show
+these from just the browser on PC */
+
+
+
+/* default any-hover effect */
+  
+@media (any-hover: hover) {
+    a:hover {
+      background: orange;
+      color: red;
+    }
+}
+/* There is also an option for pointers */
+
+
+/* Choosing Breakpoints */
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 360px) {
+    body {
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 575px) {
+    .QuakePoints {
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
