@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <h1>String Methods in JavaScript</h1>
+
+        <h3>The length of this string "StringLengthTest" is:</h3>
+        <p id="demo"></p>
+
+        <h3>This is an example of slicing a string from the list of fruit "Mandarin, Orange, Mango":</h3>
+        <p id="demo2"></p>
+
+        <h3>The substring() method extract a part of a string and returns the extracted parts in a new string:</h3>
+        <p id="demo3"></p>
+
+        <br>
+
+        <h2>Here is my first function</h2>
+        <h3>The button will replace the my favorite fruit:</h3>
+
+        <button onclick="myFunction()">Fruit Destoryer</button>
+
+        <p id="demo4">My favorite fruit is Pink lady Apples</p>
+
+        <br>
+
+        <h3>toUpperCase() makes it easy to shout</h3>
+        <button onclick="myFunction2()">Try shouting</button>
+        <p id="demo5">aaaaaaaaaa!</p>
+
+
+
+    <script>
+        let text = "StringLengthTest";
+        document.getElementById("demo").innerHTML = text.length;
+
+        let fruit = "Mandarin, Orange, Mango";
+        let slice = fruit.slice(10,16);
+        document.getElementById("demo2").innerHTML = slice;
+
+        document.getElementById("demo3").innerHTML = fruit.substring(0,8);
+
+        function myFunction() {
+            let text = document.getElementById("demo4").innerHTML;
+            document.getElementById("demo4").innerHTML =
+            text.replace("Pink lady Apples","XXX Jokes i dont like any fruit, you have been hacked XXX");
+        }
+
+        function myFunction2() {
+            let text = document.getElementById("demo5").innerHTML;
+            document.getElementById("demo5").innerHTML =
+            text.toUpperCase();
+        }
+
+    </script>
+
+    </body>
+</html>

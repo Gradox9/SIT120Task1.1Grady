@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Time to Learn some Array Methods</h1>
+        <h3>The length of this array "Mandarin, Orange, Mango" is:</h3>
+        <p id="demo"></p>
+
+        <h3>We can also have java read out our arrays as stings:</h3>
+        <p id="demo2"></p>
+
+        <h3>We can also pop() stuff off the array and push() new fruits on</h3>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+
+        <br>
+
+        <h2>Heres a couple examples with number arrays</h2>
+        <h1>Heres a fourth function</h1>
+        <h3>If we click the button here we can sort an array of numbers numerically</h3>
+        <button onclick="myFunction()">Sort Numerically</button>
+        <p id="demo6"></p>
+
+        <br>
+
+        <h3>Lastly here's a forEach() method if you wanted to call each element in a array once:</h3>
+        <p id="demo7"></p>
+
+
+
+    <script>
+        const fruits = ["Mandarin", "Orange", "Mango"];
+        let size = fruits.length;
+        document.getElementById("demo").innerHTML = size;
+
+        document.getElementById("demo2").innerHTML = fruits.toString();
+
+        fruits.pop();
+        document.getElementById("demo4").innerHTML = fruits;
+        fruits.push("Apricot");
+        document.getElementById("demo5").innerHTML = fruits;
+
+        const numbers = [420, 69, 4, 1, 42, 777];
+        document.getElementById("demo6").innerHTML = numbers;
+        
+        function myFunction() {
+            numbers.sort(function(a, b){return a - b});
+            document.getElementById("demo6").innerHTML = numbers;
+        }
+
+        let txt = "";
+            numbers.forEach(myFunction2);
+            document.getElementById("demo7").innerHTML = txt;
+
+            function myFunction2(value, index, array) {
+            txt += value + "<br>"; 
+        }
+
+    </script>
+
+    </body>
+</html>
