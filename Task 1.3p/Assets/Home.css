@@ -1,0 +1,92 @@
+/* NAVBAR */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 5px 5px 1px #ddd;
+    padding-left: 0px;
+}
+
+.topnav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.topnav li {
+    margin: 10px;
+    list-style: none;
+}
+.topnav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0px 15px;
+}
+
+.topnav li:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+/* INTRODUCTION */
+.introduction {
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 150px auto;
+    width: 70%;
+}
+
+.introduction img {
+    max-width: 350px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 1100px) {
+    .introduction {
+        width: 50%;
+    }
+    .introduction img {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .introduction img {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .introduction {
+        flex-direction: column;
+    }
+    .introduction img {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .introduction {
+        margin: 20px auto;
+    }
+    .introduction img {
+        margin: 0px;
+    }
+}
