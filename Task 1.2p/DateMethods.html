@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Date Methods in JavaScript</h1>
+        <p>I got a little lazy here XD since I'm doing it again since the task sheet got updated.</p>
+        
+        <h3>Date()</h3>
+        <p id="demo"></p>
+
+        <h3>Date(date string)</h3>
+        <p id="demo2"></p>
+
+        <h3>Date(year, month, ...)</h3>
+        <p id="demo3"></p>
+
+        <h3>Previous Century</h3>
+        <p id="demo4"></p>
+
+        <h3>new Date(milliseconds)</h3>
+        <p id="demo5"></p>
+
+    <script>
+        const a = new Date();
+        document.getElementById("demo").innerHTML = a;
+
+        const b = new Date("October 13, 2014 11:13:00");
+        document.getElementById("demo2").innerHTML = b;
+
+        const c = new Date(2018, 10, 24, 10, 33, 30, 0);
+        document.getElementById("demo3").innerHTML = c;
+
+        const d = new Date(98, 11, 24);
+        document.getElementById("demo4").innerHTML = d;
+
+        const e = new Date(100000000000);
+        document.getElementById("demo5").innerHTML = e;
+        
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>String Methods in JavaScript</h1>
+        <h3>Numbers can be written with or without decimals when set as veriables:</h3>
+        <p id="demo"></p>
+
+        <h3>Integers Precision (numbers without a period or exponent notation) are accurate up to 15 digits:</h3>
+        <p id="demo2"></p>
+        <p>12712839385783091 is not the same as whats shown due to the method</p>
+
+        <h3>Floating Point Precision</h3>
+        <p>Another example of precision that is not always 100% accurate.</p>
+        <p id="demo3"></p>
+
+        <br>
+
+        <h2>Here's my second function</h2>
+        <h3>Look at this revolutinary adding technique</h3>
+        <p>Try adding +4 to the number, just like UNO</p>
+        <button onclick="myFunction()">+4</button>
+        <p id="demo4">0</p>
+
+        <br>
+
+        <h3>Hexadecimal can be interpreted when 0x is preceded by Numeric Constants:</h3>
+        <p id="demo5"></p>
+
+        <br>
+        <h2>Here's my Third function</h2>
+        <h3>This is just the multiplication of two numbers using a function to its full extent passing variables and calculations. PLUS if you didnt know already the html page is responsive!</h3>
+        <p id="demo6"></p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <script>
+        let x = 4.20;
+        let y = 69;
+        document.getElementById("demo").innerHTML = x + "<br>" + y;
+
+        let z = 999999999999999;
+        let a = 12712839385783091;
+        document.getElementById("demo2").innerHTML = z + "<br>" + a;
+
+        let b = 0.2 + 0.1;
+        document.getElementById("demo3").innerHTML = "0.2 + 0.1 = " + b;
+
+        function myFunction() {
+            let c = 0;
+            let d = 4;
+            let e = c + d
+            document.getElementById("demo4").innerHTML = e;
+        }
+
+        let f = 0xABC;
+        document.getElementById("demo5").innerHTML = "0xABC = " + f;
+
+        function myFunction2(p1, p2) {
+        return p1 * p2;
+        }
+
+        let result = myFunction2(4, 3);
+        document.getElementById("demo6").innerHTML = "4 times 3 = " + result;
+
+    </script>
+
+    </body>
+</html>
