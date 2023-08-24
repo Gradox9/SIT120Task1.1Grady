@@ -1,0 +1,71 @@
+#portfolio {
+  padding-top: 0%;
+  padding-bottom: 10%;
+  padding-left: 12.5%;
+  padding-right: 15%;
+}
+
+.worktext {
+  width: 75%;
+  height: 95%;
+  background-color: white;
+  padding: 20px;
+}
+
+.projectcompany {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.jobtitle {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  color: gray;
+}
+
+.portfoliodescription {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.separator hr {
+  border: none;
+  border-top: 2px solid #000000; /* Styling for the separator line */
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.thothtechdownlaodbutton {
+  text-align: center; /* Center the button horizontally */
+  margin-top: 20px; /* Add some spacing between the button and other content */
+  padding-left: 0%;
+}
+
+.thothtechdownlaodbutton a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.thothtechdownlaodbutton a:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid #000;
+}
