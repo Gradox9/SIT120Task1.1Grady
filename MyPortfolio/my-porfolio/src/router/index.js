@@ -22,7 +22,8 @@ const routes = [
     path: '/portfolio',
     name: 'portfolio',
     component: Portfolio,
-
+  },
+  {
     path: '/contact',
     name: 'contact',
     component: Contact,
