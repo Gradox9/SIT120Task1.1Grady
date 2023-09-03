@@ -19,8 +19,8 @@
       </p>
     </div>
     <img class="cat" src="../../public/images/babushka-sad.jpg" />
-    <div class="resumeButton">
-      <a href="../../public/resume/Resume1.1.docx" download>Download Resume</a>
-    </div>
+  </div>
+  <div class="resumeButton">
+    <a href="../../public/resume/Resume1.1.docx" download>Download Resume</a>
   </div>
 </template>

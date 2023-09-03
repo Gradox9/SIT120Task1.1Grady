@@ -1,21 +1,33 @@
+.about{
+  margin-left: 10%;
+}
+
 .aboutIntro {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.aboutDescription {
-  font-size: 1.17em;
+.aboutContainer {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aboutText {
+  
+  padding-right: 20px;
 }
 
 .cat {
-  width: 200px;
-  height: auto;
-  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px
 }
 
 .resumeButton {
   text-align: center;
   margin-top: 20px;
+  position: relative;
 }
 
 .resumeButton a {
@@ -34,51 +46,62 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .about {
-    padding-left: 10px;
-  }
-  .aboutIntro {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .aboutDescription {
+  .aboutText{
     padding-left: 10px;
     padding-right: 10px;
   }
   .cat {
-    width: 50%;
+    max-width: 150px;
     margin-left: auto;
     margin-right: auto;
   }
-  .aboutContainer {
+  .resumeButton {
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .about {
-    padding-left: 10px;
-  }
-  .aboutIntro {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .aboutDescription {
+  .aboutText{
     padding-left: 10px;
     padding-right: 10px;
   }
   .cat {
-    width: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
   }
-  .aboutContainer {
+  .resumeButton {
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (max-width: 800px) {
+  .aboutContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (max-width: 1100px) {
+  .cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+  }
+  .aboutContainer{
+    display: inline;
+  }
+  .aboutText{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
