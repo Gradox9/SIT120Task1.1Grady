@@ -1,16 +1,17 @@
 .about{
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .aboutIntro {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bold;
+  margin-top: 0%;
 }
 
 .aboutContainer {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .aboutText {
@@ -90,6 +91,10 @@
 }
 
 @media only screen and (max-width: 1100px) {
+  .about{
+    margin-left: 10%;
+  }
+  
   .cat {
     display: block;
     margin-left: auto;

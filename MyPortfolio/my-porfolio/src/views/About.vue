@@ -10,7 +10,7 @@
         deakin university.
       </p>
       <p class="aboutDescription">
-        Hey there, I'm Grady, a student based in geelong with a joy for web
+        Hey there, I'm a student based in geelong with a joy for web
         design and network engineering. I enjoy working on design operations and
         systems that help bring order to complexity. When i'm not working and
         have free time, you'll probably find me playing a varity of games whilst
