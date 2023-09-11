@@ -1,0 +1,115 @@
+.about{
+  margin-left: 20%;
+}
+
+.aboutIntro {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 0%;
+}
+
+.aboutContainer {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.aboutText {
+  
+  padding-right: 20px;
+}
+
+.cat {
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px
+}
+
+.resumeButton {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.resumeButton a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.resumeButton a:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+@media only screen and (max-width: 400px) {
+  .aboutText{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cat {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .resumeButton {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutText{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .resumeButton {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .resumeButton {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .about{
+    margin-left: 10%;
+  }
+  
+  .cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+  }
+  .aboutContainer{
+    display: inline;
+  }
+  .aboutText{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
