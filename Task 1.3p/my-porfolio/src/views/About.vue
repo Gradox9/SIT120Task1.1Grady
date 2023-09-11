@@ -21,6 +21,6 @@
     <img class="cat" src="../../public/images/babushka-sad.jpg" />
   </div>
   <div class="resumeButton">
-    <a href="../../public/resume/Resume1.1.docx" download>Download Resume</a>
+    <a href="../assets/Resume1.1.pdf" download>Download Resume</a>
   </div>
 </template>
