@@ -1,0 +1,85 @@
+.contact {
+  margin-left: 35%;
+}
+
+.emailForm {
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  color: white;
+}
+
+.emailForm {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+.emailForm input,
+textarea,
+select {
+  background-color: white;
+}
+
+.emailForm textarea {
+  width: 200px;
+  height: 100px;
+}
+
+.submitButton {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.submitButton:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid white;
+}
+
+@media only screen and (max-width: 400px) {
+  .contact {
+    margin-left: 10px;
+  }
+
+  .emailForm {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    margin-left: 20px;
+  }
+
+  .emailForm {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    margin-left: 20%;
+  }
+
+  .emailForm {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .contact {
+    margin-left: 30%;
+  }
+
+  .emailForm {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}

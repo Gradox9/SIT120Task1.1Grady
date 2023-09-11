@@ -11,7 +11,8 @@
     <h1>Contact Me</h1>
   </div>
 
-  <form @submit="onSubmit" class="add-form">
+  <form @submit="onSubmit" class="emailForm">
+    <p>Fill out the form below if you'd like to get in contact with me:</p>
     <label for="email">
       <h3>Email:</h3>
     </label>
@@ -27,7 +28,8 @@
     <p style="white-space: pre-line">{{ message }}</p>
     <textarea v-model="message" placeholder=""></textarea>
     <br>
-    <input type="submit" value="Submit" class="btn-btn-block" />
+    <br>
+    <input type="submit" value="Submit" class="submitButton" />
   </form>
 </template>
 
